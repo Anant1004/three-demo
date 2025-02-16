@@ -44,10 +44,11 @@ import { useEffect,useRef } from 'react';
 import { Canvas, useLoader, useFrame } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import * as THREE from 'three';
 
 function Model() {
   const result = useLoader(GLTFLoader, '/pony_cartoon/scene.gltf');
-  const modelRef = useRef();
+  const modelRef = useRef<THREE.Object3D | null>(null);
 
   useEffect(() => {
     if (modelRef.current) {
