@@ -86,7 +86,7 @@ export default function Home() {
     <div className="w-full h-screen flex bg-white text-black">
       <div className="w-full md:w-[50%] flex items-center justify-center flex-col p-8 ">
         <div className="w-full md:w-[90%] h-auto  p-6">
-          <h1 className="text-4xl font-bold ">Hi, I’m Mantu Kumar</h1>
+          <h1 className="text-4xl font-bold ">Hi, I’m Lorem ipsum dolor sit amet.</h1>
           <p className="text-sm  mt-2">This is a 3D model created using React Three Fiber.</p>
           <p className="mt-4 text-base ">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam sunt ipsum, debitis numquam nulla
