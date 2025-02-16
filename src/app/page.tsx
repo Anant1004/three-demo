@@ -77,7 +77,7 @@
 //     </div>
 //   );
 // }
-import ThreeDmodel from "./components/ThreeDodel";
+import ThreeDmodel from "./components/ThreeDmodel";
 import Navbar from './components/Navbar'
 export default function Home() {
   return (
